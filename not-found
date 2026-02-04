@@ -1,0 +1,20 @@
+export default function NotFound() {
+    return(
+        <div className="bg-[#65347d] h-screen w-screen flex flex-col justify-center items-center">
+            <div>
+                <h1 className="font-bold text-9xl p-4 text-white">
+                    404
+                </h1>
+            </div>
+            <div>
+                <img
+                 src="https://preview.redd.it/the-pointing-and-laughing-cat-but-its-susie-v0-ql6xq2yrjbqe1.jpg?width=640&crop=smart&auto=webp&s=a2d95fcb5891dc819a689cfa77d56f66f5239209" 
+                 alt="cat laughing" 
+                 width={200} height={200} 
+                 className="rounded-full"
+                 />
+            </div>
+            <p className="p-12 font-bold text-xl text-white">HAHAHAHA GANTS PAGE OLJ CHADKU</p>
+        </div>
+    )
+}
